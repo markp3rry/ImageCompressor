@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640" />
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Imagecompressor by markp3rry</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/markp3rry/ImageCompressor">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Imagecompressor</h1>
+            <h2>A simple Windows .exe that compresses .JPG files</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/markp3rry/ImageCompressor/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/markp3rry/ImageCompressor/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h1>
+<a name="imagecompressor" class="anchor" href="#imagecompressor"><span class="octicon octicon-link"></span></a>ImageCompressor</h1>
+
+<p>A simple Windows .exe that compresses .JPG files.</p>
+
+<p>Written to solve a problem that a friend of mine was having at work. He works for the NHS and his team receives high resolution images that need to be uploaded to a case management system. The images are often 5MB+ in size and they need to be less than 1.5MB to get uploaded. This results in a messy process where team members are spending time manually reducing image size in Paint. This .exe will do the work for them much, much quicker.</p>
+
+<p><strong>How it works</strong></p>
+
+<p>Compile the code. Create two folders on your computer; c:\jpeg_in and c:\jpeg_out (these are hardcoded). Put the image(s) you want to resize into the in folder and run the .exe (under admin mode otherwise you will get permissions errors). Resized images will be get dropped into the out folder (which is emptied of all content first).</p>
+
+<p>I have released this code under an <a href="http://choosealicense.com/licenses/mit/">MIT license</a>.</p>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/markp3rry">markp3rry</a> can be found on <a href="https://github.com/markp3rry/ImageCompressor">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
