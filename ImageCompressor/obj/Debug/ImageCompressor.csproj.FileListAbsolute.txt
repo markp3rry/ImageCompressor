@@ -1,0 +1,6 @@
+C:\Visual Studio 2010\ImageCompressor\ImageCompressor\bin\Debug\ImageCompressor.exe.config
+C:\Visual Studio 2010\ImageCompressor\ImageCompressor\bin\Debug\ImageCompressor.exe
+C:\Visual Studio 2010\ImageCompressor\ImageCompressor\bin\Debug\ImageCompressor.pdb
+C:\Visual Studio 2010\ImageCompressor\ImageCompressor\obj\Debug\ImageCompressor.csprojResolveAssemblyReference.cache
+C:\Visual Studio 2010\ImageCompressor\ImageCompressor\obj\Debug\ImageCompressor.exe
+C:\Visual Studio 2010\ImageCompressor\ImageCompressor\obj\Debug\ImageCompressor.pdb
